@@ -2,8 +2,8 @@
 if [ -z "${QE_EXE}" ]; then echo "ERROR: Please export QE_EXE before running script." ; exit; fi
 
 # QE run parameters
-NGPU=8
-NPOOL=2
+NGPU=5
+NPOOL=5
 
 # Node-specific parameters
 GPU_PER_SOCKET=4
