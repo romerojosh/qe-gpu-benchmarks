@@ -10,7 +10,7 @@ Benchmark repository for qe-gpu (https://github.com/fspiga/qe-gpu)
 - See `README.md` in main qe-gpu repository for further details on installation.
 
 ## Running benchmark cases:
-- **Important**: Before running any of the scripts in this repository, export environment variable `QE_GPU = <path to pw.x executable>`
+- **Important**: Before running any of the scripts in this repository, export environment variable `QE_EXE = <path to pw.x executable>`
 - Within the testcase directories, there are sample run/batch scripts `run.sh` and expected output in files titled `output_*GPU_*POOL.txt` for several tested systems. If you are running on one of those systems, running/submitting these scripts from the directory they are located should work without any need to modify paths in the input files. 
 
 # Benchmark Results
